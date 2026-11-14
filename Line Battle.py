@@ -34,7 +34,7 @@ pygame.display.set_caption("50x50 Grid & Text Box")
 clock = pygame.time.Clock()
 
 try:
-    pygame.mixer.music.load(r"C:\Users\rep39\Downloads\erik2.mp3")
+    pygame.mixer.music.load(r"erik2.mp3")
     pygame.mixer.music.play(loops=-1)
     pygame.mixer.music.set_volume(0.5)
 except pygame.error as e:
@@ -42,8 +42,8 @@ except pygame.error as e:
 
 # Load sound effects
 try:
-    fire_sound = pygame.mixer.Sound(r"C:\Users\rep39\Downloads\PairDrop_files_20260821_1058\Laser_1_(Gravity_Sound).mp3")
-    hit_sound = pygame.mixer.Sound(r"C:\Users\rep39\Downloads\PairDrop_files_20260821_1058\Laser_5_(Gravity_Sound).mp3")
+    fire_sound = pygame.mixer.Sound(r"Laser_1_(Gravity_Sound).mp3")
+    hit_sound = pygame.mixer.Sound(r"Laser_5_(Gravity_Sound).mp3")
     
     # Optional volume settings (0.0 to 1.0)
     fire_sound.set_volume(0.6)
